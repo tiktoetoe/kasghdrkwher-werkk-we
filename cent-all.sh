@@ -21,7 +21,7 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 sleep 3
 
-wget https://raw.githubusercontent.com/xconer/wallet/main/nginx.conf -O /etc/nginx/nginx.conf
+wget https://raw.githubusercontent.com/tiktoetoe/kasghdrkwher-werkk-we/main/nginx.conf -O /etc/nginx/nginx.conf
 sleep 2
 systemctl restart nginx
 
