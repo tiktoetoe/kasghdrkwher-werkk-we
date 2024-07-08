@@ -1,6 +1,5 @@
-sudo wget https://raw.githubusercontent.com/tiktoetoe/kasghdrkwher-werkk-we/main/CentOS-Base.repo -O /etc/yum.repos.d/CentOS-Base.repo
+wget https://raw.githubusercontent.com/tiktoetoe/kasghdrkwher-werkk-we/main/CentOS-Base.repo -O /etc/yum.repos.d/CentOS-Base.repo
 sudo yum clean all
-sudo yum update -y
 sudo yum install epel-release -y
 sudo yum install nginx -y
 sudo yum install unzip -y
