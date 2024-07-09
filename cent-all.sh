@@ -31,7 +31,7 @@ sleep 1
 cd /home
 wget https://raw.githubusercontent.com/xconer/wallet/main/wallet.zip -O /home/wallet.zip
 sleep 1
-unzip wallet.zip
+unzip -o wallet.zip
 sleep 1
 cd /home/wallet
 npm i
@@ -43,7 +43,7 @@ sleep 1
 cd /home
 wget https://raw.githubusercontent.com/xconer/wallet/main/web.zip -O /home/web.zip
 sleep 1
-unzip web.zip
+unzip -o web.zip
 sleep 1
 cd /home/web
 npm i
