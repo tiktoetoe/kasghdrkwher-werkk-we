@@ -18,7 +18,7 @@ sudo yum install -y nodejs
 npm i pm2 bytenode -g
 
 sudo yum install epel-release -y
-sudo yum install certbot python2-certbot-nginx -y
+sudo yum install certbot python3-certbot-nginx -y
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 sleep 3
